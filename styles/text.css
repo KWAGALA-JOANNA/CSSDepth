@@ -1,0 +1,32 @@
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.left-align{
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    line-height: 1.8;
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+.right-align{
+    text-align: right;
+    text-decoration: line-through;
+    letter-spacing: 5px;
+}
+.center-align{
+    text-align: center;
+    text-decoration: overline;
+    text-indent: 50px;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.justify-align{
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: uppercase;
+}

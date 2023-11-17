@@ -1,0 +1,28 @@
+.visited a:visited{
+    color: coral;
+    background-color: coral;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.visited{
+    display: flex;
+    gap:2rem
+}
+.hover a:hover{
+    color: rgb(0, 255, 85);
+}
+.hover{
+    display: flex;
+    gap:2rem
+    }
+.active a:active{
+    color: rgb(174, 52, 11);
+    background-color: black;
+}
+.active{
+    display: flex;
+    gap:2rem
+}

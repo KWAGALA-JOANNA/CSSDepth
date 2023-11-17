@@ -1,0 +1,50 @@
+.visible {
+    /* display: flex;
+    flex-direction: column; */
+    gap: 2rem;
+    width: 200px;
+    height: 65px; 
+    background-color: coral;
+    overflow: visible;
+}
+.scroll{
+    gap: 2rem;
+    width: 200px;
+    height: 65px; 
+    background-color: coral;
+    overflow: scroll;
+    margin-top:150px
+}
+.hidden{
+    gap: 2rem;
+    width: 200px;
+    height: 65px; 
+    background-color: coral;
+    overflow: hidden;
+    margin-top:50px 
+}
+.x{
+    gap: 2rem;
+    width: 200px;
+    height: 65px; 
+    background-color: coral;
+    overflow-x: auto;
+    margin-top:50px
+}
+.y{
+    gap: 2rem;
+    width: 200px;
+    height: 65px; 
+    background-color: coral;
+    overflow-y: visible;
+    margin-top:50px
+}
+.auto{
+    gap: 2rem;
+    width: 200px;
+    height: 65px; 
+    background-color: coral;
+    overflow: auto;
+    margin-top:150px;
+
+}
